@@ -208,3 +208,66 @@ footer{
 }
 
 /* Services page begins */
+/* header */
+
+header{
+	width: 80%;
+	display:flex;
+	flex-flow: column;
+	
+	margin-left: 10%;
+}
+
+header img{
+	margin-top: 15px;
+}
+
+header h2{
+	
+	font-size: 30px;
+	/* height: 100px; */
+	margin-top: 30px;
+}
+header p{
+	margin-bottom: 30px;
+}
+/* Line in middle */
+hr{
+	width:80%;
+	margin-left: 10%;
+}
+
+/* Middle section */
+.helper{
+	display:flex;
+	justify-content: space-evenly;
+	flex-flow: column;
+	border: 1px solid black;
+	background-color: lightgray;
+	width:40%;
+	margin:1%;
+	padding: 2.5%;
+
+	/*padding-bottom: 5%;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+	; */
+
+.middleH{
+	display:flex;
+	/* flex-flow: row wrap; */
+	justify-content: space-evenly ;
+
+}
+.width{
+	width:80%;
+	margin-left:10%
+
+}
+.padding{
+	margin:%;
+}
+
+.helper >p{
+	padding:10px;
+}
